@@ -50,16 +50,16 @@ Person
 
 
 // Getting All People
-// Person
-// .find({})
-// .then((people) => console.log('All People: ', people))
-// .catch((err) => console.error(err));
+Person
+.find({})
+.then((people) => console.log('All People: ', people))
+.catch((err) => console.error(err));
 
-// Getting By favorite food
-// Person
-// .find({favoriteFoods: 'Pizza'})
-// .then((people) => console.log('People with favorite food pizza: ', people))
-// .catch((err) => console.error(err));
+Getting By favorite food
+Person
+.find({favoriteFoods: 'Pizza'})
+.then((people) => console.log('People with favorite food pizza: ', people))
+.catch((err) => console.error(err));
 
 // Getting By ID
 
